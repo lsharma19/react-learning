@@ -1,0 +1,94 @@
+.main-section {
+    background-color: #000;
+    height: 100vh;
+  
+    h1,
+    h2,
+    ul {
+      text-align: center;
+    }
+  
+    h1,
+    h2 {
+      color: #fff;
+      margin: 0 0 10px;
+    }
+    h1 {
+      padding-top: 20px;
+    }
+  
+    .card {
+      padding: 10px;
+      list-style-type: none;
+      width: 350px;
+      text-align: center;
+      min-height: 160px;
+      background-color: #7070fe;
+      display: inline-flex;
+      justify-content: center;
+      margin: 10px;
+      color: #fff;
+    }
+  
+    .live-text {
+      font-size: 14px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 5px;
+    }
+  
+    .red-circle {
+      background-color: red;
+      width: 12px;
+      height: 12px;
+      display: inline-block;
+      border-radius: 20px;
+      animation: blink-animation 1s steps(5, start) infinite;
+      -webkit-animation: blink-animation 1s steps(5, start) infinite;
+    }
+  
+    @keyframes blink-animation {
+      to {
+        visibility: hidden;
+      }
+    }
+  
+    .card:nth-child(2) {
+      background-color: #57ac55;
+    }
+  
+    .card:nth-child(3) {
+      background-color: #babf56;
+    }
+  
+    .card:nth-child(4) {
+      background-color: #db8318;
+    }
+  
+    .card:nth-child(5) {
+      background-color: #7070fe;
+    }
+  
+    .card:nth-child(6) {
+      background-color: #e7bf8f;
+    }
+  
+    .card__name {
+      font-size: 32px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+  
+    .card__name span {
+      font-size: 14px;
+    }
+  
+    .card__small {
+      font-size: 40px;
+      margin: 0px;
+      font-weight: 700;
+    }
+  }
+  

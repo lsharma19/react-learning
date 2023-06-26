@@ -1,0 +1,38 @@
+h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.d-flex {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.plus-btn {
+    border: 0;
+    background-color: #ddd;
+    border-radius: 20px;
+    padding: 4px 8px;
+    cursor: pointer;
+    margin-left: 5px;         
+}
+
+.del-btn {
+    background-color: red;
+    border-radius: 20px;
+    border: 0;
+    margin-right: 5px;
+    cursor: pointer;
+} 
+
+.list-items {
+    li {
+        min-width: 145px;
+    }
+}
